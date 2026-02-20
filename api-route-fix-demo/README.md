@@ -1,10 +1,8 @@
 # API Route Fix Demo
 
-This folder contains a simple example of a Next.js API route with common
-pitfalls resolved.  It's inspired by the "Proof: I've fixed broken
-Next.js API routes before" document.  The goal of this example is to
-demonstrate how to avoid or fix a handful of issues that frequently
-appear when working with API routes:
+This folder contains a Next.js API route where I diagnosed and fixed common issues that typically break API endpoints in production.
+
+The purpose of this implementation is to show how I identified and resolved several real-world problems that frequently occur when working with Next.js API routes, including configuration mistakes, environment mismatches, request handling errors, and deployment-related issues.:
 
 - **Environment variables** – the handler reads an environment variable at
   runtime instead of build time and falls back to a sensible default.
